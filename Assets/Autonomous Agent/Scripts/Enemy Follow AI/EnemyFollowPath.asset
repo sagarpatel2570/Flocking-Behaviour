@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7e5bd99f351cab48af4fdea99c6840e, type: 3}
+  m_Name: EnemyFollowPath
+  m_EditorClassIdentifier: 
+  maxSpeed: 10
+  turnSpeed: 15
+  stoppingDst: 1
+  acceleration: 1.2
+  enemyPersonalVisionRadius: 0.4
+  enemyTargetVisionRadius: 2
+  viewAngle: 60
+  obstacleLayermask:
+    serializedVersion: 2
+    m_Bits: 256
+  loop: 1
+  maxNumberOfNeighbour: 5
+  fov: 60
+  turnAccleration: 10
+  minTurnSpeed: 1
+  turnTime: 0.3
+  allignPriority: 1.7
+  seekPriority: 10
+  separatePriority: 9.5
+  cohesionPriority: 0
+  avoidanceRadius: 2
+  avoidanceProperty: 8
+  flowMapPriority: 1

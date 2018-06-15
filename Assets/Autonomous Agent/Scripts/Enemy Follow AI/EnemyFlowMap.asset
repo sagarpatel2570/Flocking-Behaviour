@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7e5bd99f351cab48af4fdea99c6840e, type: 3}
+  m_Name: EnemyFlowMap
+  m_EditorClassIdentifier: 
+  maxSpeed: 3
+  turnSpeed: 5
+  stoppingDst: 1
+  acceleration: 5
+  enemyPersonalVisionRadius: 0.5
+  enemyTargetVisionRadius: 2
+  viewAngle: 60
+  obstacleLayermask:
+    serializedVersion: 2
+    m_Bits: 256
+  loop: 1
+  maxNumberOfNeighbour: 5
+  fov: 60
+  turnAccleration: 0
+  minTurnSpeed: 0
+  turnTime: 0
+  allignPriority: 4.1
+  seekPriority: 3.2
+  separatePriority: 6.1
+  cohesionPriority: 3.1
+  avoidanceRadius: 1.5
+  avoidanceProperty: 55
+  flowMapPriority: 10
